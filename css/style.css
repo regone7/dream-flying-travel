@@ -355,6 +355,53 @@ body {
 
 /* newsletter end */
 
+
+/* footer section css */
+
+footer{
+    width: 100%;
+    height: 400px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 70px;
+
+
+}
+.foo-head{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.foo1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.foo2{
+    text-align: center;
+    padding: 10px;
+}
+
+.foo3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.foo4{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* footer end */
+
+
+
 @media screen and (max-width:600px) {
     .nav2 {
         visibility: hidden;
@@ -394,6 +441,8 @@ body {
 }
 
 /* Explore Your Travel 600px mobile device end */
+
+
 
 /* popular tour mobile */
 
@@ -489,4 +538,16 @@ body {
         width: 32%;
     }
 
+}
+
+/* footer mobile  */
+
+@media screen and (max-width:600px){
+    footer{
+        margin-top: 270px;
+        width: 100%;
+    }
+    .foo-head{
+        width: 100%;
+    }
 }
