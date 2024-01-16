@@ -170,60 +170,68 @@ body {
 }
 
 
-.des1{
+.des1 {
     display: flex;
     gap: 10px;
-    
+
 }
-.des1 img{
+
+.des1 img {
     width: 500px;
 }
-.des2{
+
+.des2 {
     display: flex;
     gap: 10px;
     margin: 10px 0px;
-    
+
 }
-.des2-1{
+
+.des2-1 {
     width: 34%;
     height: 262px;
 }
-.des2-2{
+
+.des2-2 {
     width: 44%;
     height: 262px;
 }
-.des2-3{
+
+.des2-3 {
     width: 21%;
     height: 262px;
 }
 
-.des3{
+.des3 {
     display: flex;
     gap: 10px;
-    
+
 }
-.des3-1{
+
+.des3-1 {
     width: 60%;
     height: 262px;
 }
-.des3-2{
+
+.des3-2 {
     width: 41%;
     height: 262px;
 }
 
 /* choose css */
-.choose-head{
+.choose-head {
     width: 1000px;
     margin: 0px auto;
 }
 
-.cs-h{
+.cs-h {
     text-align: center;
     font-size: 30px;
     font-weight: 800;
     line-height: normal;
 }
-.cs-p{
+
+.cs-p {
     text-align: center;
     font-size: 14px;
     font-style: normal;
@@ -231,27 +239,31 @@ body {
     line-height: 26px;
     margin-bottom: 20px;
 }
-.choose-dv1{
+
+.choose-dv1 {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.choose-dv1-1{
+
+.choose-dv1-1 {
     border-radius: 14px;
     background: rgba(109, 98, 210, 0.05);
     margin-top: 20px;
     padding: 40px;
     width: 49%;
 }
-.choose-dv1-2{
+
+.choose-dv1-2 {
     border-radius: 14px;
     background: rgba(37, 180, 34, 0.05);
     margin-top: 20px;
     padding: 40px;
     width: 49%;
 }
-.choose-dv2{
- 
+
+.choose-dv2 {
+
     margin: 0 auto;
     width: 50%;
     border-radius: 14px;
@@ -260,7 +272,8 @@ body {
     padding: 40px;
 
 }
-.h-ch{
+
+.h-ch {
     font-size: 30px;
     font-weight: 600;
     line-height: normal;
@@ -269,7 +282,78 @@ body {
 
 /* choose css end */
 
+/* newsletter css start */
 
+.newsletter-head {
+    width: 1000px;
+    margin: 50px auto;
+    height: 350px;
+
+}
+
+.newsletter-main {
+    display: flex;
+    gap: 20px;
+    height: 100%;
+}
+
+.nsl-dv {
+    border-radius: 14px;
+    border: 1px solid #FF5400;
+    padding: 30px;
+
+}
+
+.nsl-h {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.nsl-p {
+    margin: 0px 0px 20px 0px;
+}
+
+.nsl-1 {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    padding: 10px;
+    border: 0;
+}
+
+.nsl-3 {
+    margin-bottom: 5px;
+}
+
+.nsl-2 {
+    border-radius: 8px;
+    background: #FF5400;
+    color:#FFF;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 0;
+}
+.nsl-img{
+    height: 100%;
+}
+.nsl-ab{
+    background-color: #FF5400;
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+    align-items: center;
+    border-radius: 7px;
+    margin-left: 345px;
+    color: #FFF;
+    padding: 20px;
+    z-index: 1;
+    transform: rotate(-19.628deg);
+    margin-top: -120px;
+}
+
+/* newsletter end */
 
 @media screen and (max-width:600px) {
     .nav2 {
@@ -333,50 +417,76 @@ body {
 /* desti  mobile */
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
     .desti-head {
         width: 500px;
         margin-top: 270px;
     }
-    .des1{
+
+    .des1 {
         flex-direction: column;
         gap: 10px;
-        
+
     }
 
 
-    
-    .des2{
+
+    .des2 {
         flex-direction: column;
         gap: 10px;
         margin: 10px 0px;
-        
+
     }
-    .des2 img{
-        width: 100%; 
+
+    .des2 img {
+        width: 100%;
     }
-    
-    .des3{
+
+    .des3 {
         flex-direction: column;
         gap: 10px;
-        
+
     }
-    .des3 img{
-        width: 100%; 
+
+    .des3 img {
+        width: 100%;
     }
-    
+
 }
 
 /* choose mobile */
 
-@media screen and (max-width:600px){
-    .choose-dv1{
+@media screen and (max-width:600px) {
+    .choose-dv1 {
         flex-direction: column;
     }
-    .choose-head{
+
+    .choose-head {
         width: 100%;
     }
-    .choose-dv1-1, .choose-dv1-2, .choose-dv2{
+
+    .choose-dv1-1,
+    .choose-dv1-2,
+    .choose-dv2 {
         width: 80%;
     }
+}
+
+/* Newsletter moblie */
+@media screen and (max-width:600px){
+    .newsletter-head{
+        width: 90%;
+        margin: 50px auto;
+    }
+    .newsletter-main{
+        flex-direction: column;
+    }
+    .nsl-img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .nsl-ab{
+        width: 32%;
+    }
+
 }
