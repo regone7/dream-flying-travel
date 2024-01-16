@@ -166,6 +166,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    margin-bottom: 30px;
 }
 
 
@@ -209,6 +210,64 @@ body {
     width: 41%;
     height: 262px;
 }
+
+/* choose css */
+.choose-head{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.cs-h{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: normal;
+}
+.cs-p{
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.choose-dv1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.choose-dv1-1{
+    border-radius: 14px;
+    background: rgba(109, 98, 210, 0.05);
+    margin-top: 20px;
+    padding: 40px;
+    width: 49%;
+}
+.choose-dv1-2{
+    border-radius: 14px;
+    background: rgba(37, 180, 34, 0.05);
+    margin-top: 20px;
+    padding: 40px;
+    width: 49%;
+}
+.choose-dv2{
+ 
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 14px;
+    background: rgba(233, 68, 68, 0.05);
+    margin-top: 20px;
+    padding: 40px;
+
+}
+.h-ch{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 15px 0px;
+}
+
+/* choose css end */
 
 
 
@@ -268,7 +327,6 @@ body {
     }
 
 
-
 }
 
 
@@ -278,7 +336,7 @@ body {
 @media screen and (max-width:600px){
     .desti-head {
         width: 500px;
-        margin: 270px auto;
+        margin-top: 270px;
     }
     .des1{
         flex-direction: column;
@@ -307,4 +365,18 @@ body {
         width: 100%; 
     }
     
+}
+
+/* choose mobile */
+
+@media screen and (max-width:600px){
+    .choose-dv1{
+        flex-direction: column;
+    }
+    .choose-head{
+        width: 100%;
+    }
+    .choose-dv1-1, .choose-dv1-2, .choose-dv2{
+        width: 80%;
+    }
 }
