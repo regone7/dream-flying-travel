@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.nav-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav2 a {
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 400;
+}
+
+.nav3 {
+    visibility: hidden;
+}
+
+/* Explore Your Travel start */
+.banner-head {
+    background-image: url("../images/banner1.png");
+    width: 1000px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    border-radius: 14px;
+}
+
+.banner-main {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.banner-h {
+    color: #FFF;
+    font-size: 54px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.banner-p {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.banner-fl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.30);
+    gap: 10px;
+
+}
+
+.bn-1 {
+    padding: 15px;
+    border-radius: 7px;
+    border: 0;
+    text-align: center;
+}
+
+.bn-2 {
+    width: 190px;
+    background-color: #FF5400;
+    color: #FFF;
+}
+
+/* Explore Your Travel end */
+
+/* popular tour css start */
+.pr-head {
+    width: 1000px;
+    margin: 70px auto;
+}
+
+.popular {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+}
+
+.pr1 ul {
+    margin-left: 25px;
+}
+
+.pr1 h1 {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 10px;
+}
+
+
+
+.pr1 p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.pr1 button {
+    border-radius: 7px;
+    background: #FF5400;
+    border: 0;
+    padding: 10px;
+    margin-top: 15px;
+
+
+}
+
+.pr2 img {
+    height: 300px;
+}
+
+/* popular tour css end */
+
+/* desti css */
+
+.desti-head {
+    width: 1000px;
+    margin: 70px auto;
+}
+
+.ds-h {
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.ds-p {
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.des1{
+    display: flex;
+    gap: 10px;
+    
+}
+.des1 img{
+    width: 500px;
+}
+.des2{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0px;
+    
+}
+.des2-1{
+    width: 34%;
+    height: 262px;
+}
+.des2-2{
+    width: 44%;
+    height: 262px;
+}
+.des2-3{
+    width: 21%;
+    height: 262px;
+}
+
+.des3{
+    display: flex;
+    gap: 10px;
+    
+}
+.des3-1{
+    width: 60%;
+    height: 262px;
+}
+.des3-2{
+    width: 41%;
+    height: 262px;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .nav2 {
+        visibility: hidden;
+    }
+
+    .nav3 {
+        visibility: visible;
+    }
+}
+
+/* Explore Your Travel 600px mobile device start */
+
+@media screen and (max-width:600px) {
+    .banner-head {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner-main {
+        display: inline;
+        width: 90%;
+        height: 100%;
+    }
+
+    .banner-fl {
+        flex-direction: column;
+        margin-left: 180px;
+        margin-right: 180px;
+
+
+
+
+    }
+
+
+}
+
+/* Explore Your Travel 600px mobile device end */
+
+/* popular tour mobile */
+
+@media screen and (max-width:600px) {
+    .popular {
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 20px;
+    }
+
+    .pr2 img {
+        width: 500px;
+        margin-left: 20px;
+        margin-bottom: 70px;
+    }
+
+
+
+}
+
+
+/* desti  mobile */
+
+
+@media screen and (max-width:600px){
+    .desti-head {
+        width: 500px;
+        margin: 270px auto;
+    }
+    .des1{
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+
+
+    
+    .des2{
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px 0px;
+        
+    }
+    .des2 img{
+        width: 100%; 
+    }
+    
+    .des3{
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+    .des3 img{
+        width: 100%; 
+    }
+    
+}
